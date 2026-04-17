@@ -44,8 +44,8 @@ role_deputy_gm = "Deputy General Manager"
 [staff.flight]
 title = "Flight Department"
 role_ops = "Operations Director"
-role_gm = "Flight Department General Manager"
-role_deputy_gm = "Deputy General Manager"
+role_gm = "Flight General Manager"
+role_deputy_gm = "Flight Deputy GM"
 
 [staff.dispatch]
 title = "Dispatch"
