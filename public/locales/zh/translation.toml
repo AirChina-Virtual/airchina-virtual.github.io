@@ -30,3 +30,31 @@ body = """
 
 [privacy]
 title = "隐私政策"
+
+[staff]
+title = "职员"
+subtitle = "组织架构与管理团队"
+
+[staff.admin]
+title = "行政部"
+role_chairman = "董事长"
+role_gm = "总经理"
+role_deputy_gm = "副总经理"
+
+[staff.flight]
+title = "飞行部"
+role_ops = "运行主管"
+role_gm = "飞行部总经理"
+role_deputy_gm = "飞行部副总经理"
+
+[staff.dispatch]
+title = "签派部"
+role_dispatcher = "签派"
+
+[staff.design]
+title = "设计部"
+role_director = "设计总监"
+
+[staff.pr]
+title = "公关部"
+role_lead = "公关主管"

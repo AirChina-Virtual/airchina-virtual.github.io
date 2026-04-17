@@ -30,3 +30,31 @@ Air China Virtual is a completely fictional, non-profit virtual airline organiza
 
 [privacy]
 title = "Privacy Policy"
+
+[staff]
+title = "Staff"
+subtitle = "Organization structure and management team"
+
+[staff.admin]
+title = "Administration"
+role_chairman = "Chairman"
+role_gm = "General Manager"
+role_deputy_gm = "Deputy General Manager"
+
+[staff.flight]
+title = "Flight Department"
+role_ops = "Operations Director"
+role_gm = "Flight Department General Manager"
+role_deputy_gm = "Deputy General Manager"
+
+[staff.dispatch]
+title = "Dispatch"
+role_dispatcher = "Dispatcher"
+
+[staff.design]
+title = "Design"
+role_director = "Design Director"
+
+[staff.pr]
+title = "Public Relations"
+role_lead = "PR Lead"
