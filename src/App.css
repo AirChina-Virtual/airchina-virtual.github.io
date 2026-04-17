@@ -1,0 +1,101 @@
+/* ...existing code... */
+
+/* Hero video styles */
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+/* fullpage.js can vertically center section contents via table-cell styles.
+   Force our hero section content to sit at the bottom. */
+.hero.section,
+.section.hero {
+  display: block !important;
+}
+
+.hero.section .fp-tableCell,
+.section.hero .fp-tableCell {
+  vertical-align: bottom !important;
+}
+
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* keep behind overlays */
+  z-index: 0;
+}
+
+/* When user prefers reduced motion, hide the video and fall back to poster */
+@media (prefers-reduced-motion: reduce) {
+  .hero-video {
+    display: none !important;
+  }
+}
+
+/* Partners scroll styles */
+.partners-scroll {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.partners-scroll > * {
+  scroll-snap-align: center;
+}
+
+.partners-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.partners-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.partners-scroll::-webkit-scrollbar-thumb {
+  background: rgba(15, 23, 42, 0.2);
+  border-radius: 999px;
+}
+
+/* Partners auto marquee (optional wrapper) */
+.partners-marquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+.partners-marquee__track {
+  display: flex;
+  gap: 1.25rem;
+  width: max-content;
+  animation: partners-marquee-scroll 30s linear infinite;
+  will-change: transform;
+}
+
+.partners-marquee:hover .partners-marquee__track {
+  animation-play-state: paused;
+}
+
+@keyframes partners-marquee-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Allow an explicit opt-in to animations even when prefers-reduced-motion is set.
+   This preserves the accessibility default but lets us test/override per-user via
+   a body class (e.g. document.body.classList.add('force-animate')). */
+.force-animate .partners-marquee__track {
+  /* Re-apply the animation and make it harder to override accidentally */
+  animation: partners-marquee-scroll 30s linear infinite !important;
+}
+
+.force-animate .partners-marquee:hover .partners-marquee__track {
+  animation-play-state: running !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* Only disable animations if the page has NOT opted in via .force-animate */
+  body:not(.force-animate) .partners-marquee__track {
+    animation: none;
+  }
+}

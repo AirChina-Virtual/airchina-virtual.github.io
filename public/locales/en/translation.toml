@@ -1,0 +1,29 @@
+[app]
+slogan = "Across the skies\nConnecting the world"
+title = "Air China Virtual"
+description = "Sharing the passion for flight above the clouds"
+close = "Close"
+login = "Login"
+join_us_btn = "Join Us"
+career_opportunities = "Start Today"
+
+[whyus]
+title = "Why Choose Air China Virtual?"
+description = "Professional, Realistic, Collaborative"
+title1 = "Authentic Flag Carrier Experience"
+description1 = "Air China Virtual recreates the global network of Air China, from long-haul intercontinental routes to domestic hub operations. Every flight emphasizes realistic procedures and operational logic, delivering an experience close to real-world airline operations."
+title2 = "A Global Route Network"
+description2 = "Our network spans Asia, Europe, the Americas, and beyond, connecting major aviation hubs worldwide. Departing from Beijing, you will explore diverse airspaces, weather conditions, and route challenges across the globe."
+title3 = "A Community Driven by Passion"
+description3 = "Air China Virtual is more than a schedule or callsign—it is a community of flight simulation enthusiasts. Whether you pursue realism, long-haul operations, or skill improvement, you will find like-minded pilots here."
+
+[footer]
+partners = "Partners"
+privacy = "Privacy Policy"
+copyright = "Air China Virtual. All rights reserved."
+
+[footer.disclaimer]
+title = "Disclaimer"
+body = """
+Air China Virtual is a completely fictional, non-profit virtual airline organization created solely for flight simulation and online entertainment purposes. It has no affiliation, partnership, or authorization with China National Aviation Holding Corporation Limited or any government or commercial entity. All information on this page is fictional and does not represent real-world airline operations. Activities conducted by this organization must not be used for any real-world aviation purposes and do not constitute any form of real flight training or operational reference.
+"""
