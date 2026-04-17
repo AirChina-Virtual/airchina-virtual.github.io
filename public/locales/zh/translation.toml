@@ -38,14 +38,14 @@ subtitle = "组织架构与管理团队"
 [staff.admin]
 title = "行政部"
 role_chairman = "董事长"
-role_gm = "总经理"
-role_deputy_gm = "副总经理"
+role_gm = "CEO"
+role_deputy_gm = "COO"
 
 [staff.flight]
 title = "飞行部"
 role_ops = "运行主管"
-role_gm = "飞行部总经理"
-role_deputy_gm = "飞行部副总经理"
+role_gm = "飞行部经理"
+role_deputy_gm = "飞行部主任"
 
 [staff.dispatch]
 title = "签派部"
