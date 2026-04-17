@@ -3,8 +3,9 @@ slogan = "Across the skies\nConnecting the world"
 title = "Air China Virtual"
 description = "Sharing the passion for flight above the clouds"
 close = "Close"
-login = "Login"
-join_us_btn = "Join Us"
+login = "Login VAMSYS"
+join_qq_btn = "Join QQ Group"
+join_discord_btn = "Join Discord Server"
 career_opportunities = "Start Today"
 
 [whyus]
@@ -27,3 +28,6 @@ title = "Disclaimer"
 body = """
 Air China Virtual is a completely fictional, non-profit virtual airline organization created solely for flight simulation and online entertainment purposes. It has no affiliation, partnership, or authorization with China National Aviation Holding Corporation Limited or any government or commercial entity. All information on this page is fictional and does not represent real-world airline operations. Activities conducted by this organization must not be used for any real-world aviation purposes and do not constitute any form of real flight training or operational reference.
 """
+
+[privacy]
+title = "Privacy Policy"

@@ -26,8 +26,8 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <header className="absolute top-0 left-0 w-full z-50 flex items-center justify-between p-6 md:px-12">
-        <Link to="/" className="hover:opacity-80 transition-opacity">
+      <header className="absolute top-0 left-0 w-full z-50 flex items-center justify-between p-6 md:px-12 bg-white/0 backdrop-saturate-125">
+        <Link to="/" className="hover:opacity-80 transition-opacity p-1 rounded-md">
           <img
             src={"./imgs/logo.png"}
             alt="Tibet Airlines Virtual"
@@ -64,40 +64,29 @@ const Header: React.FC = () => {
 
       {/* Mobile Menu Overlay */}
       <div className={`fixed inset-0 z-40 bg-brand-white/95 backdrop-blur-xl transition-all duration-500 ease-in-out lg:hidden flex flex-col items-center justify-center ${isMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
-        <nav className="flex flex-col items-center gap-10 text-white text-3xl font-bold tracking-tight">
+        <nav className="flex flex-col items-center gap-8 text-white text-3xl font-bold tracking-tight">
           {/* Standard Links */}
-          <a href="#" onClick={() => setIsMenuOpen(false)} className="hover:text-brand-red transition-colors">
+          <a href="/" onClick={() => setIsMenuOpen(false)} className="hover:text-brand-red transition-colors">
             {t("Home") || "Home"}
           </a>
           <a href="/privacy" onClick={() => setIsMenuOpen(false)} className="hover:text-brand-red transition-colors">
             {t("Privacy") || "Privacy"}
           </a>
 
-          {/* Login - Styled as a Link */}
-          <button
-            onClick={() => { window.open(""); setIsMenuOpen(false); }}
-            className="hover:text-brand-red transition-colors uppercase"
-          > {'/* TODO */'}
+          {/* Language Switch */}
+          <div className="flex gap-4 items-center text-xl">
+            <button onClick={() => { changeLanguage('zh'); }} className={`hover:opacity-100 transition-opacity ${i18n.language === 'zh' ? 'opacity-100' : 'opacity-60'}`}>中文</button>
+            <span className="opacity-30">|</span>
+            <button onClick={() => { changeLanguage('en'); }} className={`hover:opacity-100 transition-opacity ${i18n.language === 'en' ? 'opacity-100' : 'opacity-60'}`}>EN</button>
+          </div>
+
+          {/* Login / Action */}
+          <button className="mt-4 px-6 py-2 rounded-full bg-white text-black font-semibold" onClick={() => { setIsMenuOpen(false); window.open(''); }}>
             {t("app.login")}
           </button>
-
-          {/* Language Options - Styled as Links */}
-          <div className="flex flex-col items-center gap-10">
-            <button
-              onClick={() => changeLanguage('en')}
-              className={`transition-colors ${i18n.language === 'en' ? 'text-brand-red' : 'text-white hover:text-white/60'}`}
-            >
-              ENGLISH
-            </button>
-            <button
-              onClick={() => changeLanguage('zh')}
-              className={`transition-colors ${i18n.language === 'zh' ? 'text-brand-red' : 'text-white hover:text-white/60'}`}
-            >
-              简体中文
-            </button>
-          </div>
         </nav>
       </div>
+
     </>
   );
 };

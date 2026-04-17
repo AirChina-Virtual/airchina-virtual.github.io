@@ -125,10 +125,19 @@ const App: React.FC = () => {
                                             </p>
                                             <div className="flex flex-wrap gap-4 justify-start">
                                                 <Link
+                                                    to="https://qm.qq.com/q/NHfvVvAoyO"
+                                                    className="inline-flex items-center gap-3 bg-brand-red text-white px-8 py-4 rounded font-bold text-sm uppercase tracking-widest hover:bg-brand-red-dark transition-colors duration-200"
+                                                >
+                                                    {t('app.join_qq_btn')}
+                                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                                        <path d="M5 12h14m-7-7 7 7-7 7" />
+                                                    </svg>
+                                                </Link>
+                                                <Link
                                                     to="/apply"
                                                     className="inline-flex items-center gap-3 bg-brand-red text-white px-8 py-4 rounded font-bold text-sm uppercase tracking-widest hover:bg-brand-red-dark transition-colors duration-200"
                                                 >
-                                                    {t('app.join_us_btn')}
+                                                    {t('app.join_discord_btn')}
                                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                                         <path d="M5 12h14m-7-7 7 7-7 7" />
                                                     </svg>
