@@ -26,7 +26,7 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <header className="absolute top-0 left-0 w-full z-50 flex items-center justify-between p-6 md:px-12 bg-white/0 backdrop-saturate-125">
+      <header className="absolute top-0 left-0 w-full z-50 flex items-center justify-between bg-transparent p-6 md:px-12 backdrop-saturate-125">
         <Link to="/" className="hover:opacity-80 transition-opacity p-1 rounded-md">
           <img
             src={"./imgs/logo.png"}

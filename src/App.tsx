@@ -134,7 +134,7 @@ const App: React.FC = () => {
                                                     </svg>
                                                 </Link>
                                                 <Link
-                                                    to="/apply"
+                                                    to="https://discord.gg/xxc9NfetME"
                                                     className="inline-flex items-center gap-3 bg-brand-red text-white px-8 py-4 rounded font-bold text-sm uppercase tracking-widest hover:bg-brand-red-dark transition-colors duration-200"
                                                 >
                                                     {t('app.join_discord_btn')}
@@ -145,7 +145,7 @@ const App: React.FC = () => {
                                                 <button
                                                     onClick={() => window.open("")}
                                                     className="inline-flex items-center gap-2 border border-white/40 text-white px-8 py-4 rounded font-bold text-sm uppercase tracking-widest hover:bg-white/10 transition-colors duration-200"
-                                                > {/* TODO */}
+                                                >
                                                     {t("app.login")}
                                                 </button>
                                             </div>

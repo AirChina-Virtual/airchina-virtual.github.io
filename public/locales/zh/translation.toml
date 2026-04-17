@@ -3,10 +3,9 @@ slogan = "纵横寰宇\n连接世界"
 title = "虚拟中国国际航空公司"
 description = "于蓝天之上书写飞行热爱"
 close = "关闭"
-login = "登录VAMSYS"
+login = "登录运控系统"
 join_qq_btn = "加入QQ群"
 join_discord_btn = "加入Discord服务器"
-career_opportunities = "就在今天"
 
 [whyus]
 title = "为什么选择虚拟中国国际航空公司？"
