@@ -336,12 +336,6 @@ const App: React.FC = () => {
                                                             <span className="text-sm sm:text-base font-semibold text-slate-800">VATPRC</span>
                                                         </div>
                                                     </a>
-                                                    <a target="_blank" rel="noopener noreferrer" href="https://www.zhongtaivirtual.com" className="snap-center">
-                                                        <div className="flex flex-col items-center justify-center gap-3 min-w-[220px] sm:min-w-[240px] md:min-w-[260px] border border-slate-200 rounded-2xl p-6 sm:p-7 bg-white shadow-sm">
-                                                            <img src="/imgs/zhongtai_logo.png" alt="Zhongtai Virtual" className="h-12 sm:h-14 md:h-16 w-auto object-contain" />
-                                                            <span className="text-sm sm:text-base font-semibold text-slate-800">虚拟中太 | Zhongtai Virtual</span>
-                                                        </div>
-                                                    </a>
                                                     <a target="_blank" rel="noopener noreferrer" href="https://www.vplaaf.org" className="snap-center">
                                                         <div className="flex flex-col items-center justify-center gap-3 min-w-[220px] sm:min-w-[240px] md:min-w-[260px] border border-slate-200 rounded-2xl p-6 sm:p-7 bg-white shadow-sm">
                                                             <img className="h-12 sm:h-14 md:h-16 w-auto object-contain bg-slate-900 px-2 rounded" src="https://www.vplaaf.org/docs/logo-pack/logo_standard_500px.png" alt="vPLAAF Logo" />
