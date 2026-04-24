@@ -248,7 +248,7 @@ const App: React.FC = () => {
 
                                         {/* Surrounding cards, centered */}
                                         <div className="w-full mt-6 md:mt-8">
-                                            <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6 justify-center">
+                                            <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 justify-center">
                                                 {/* Flight */}
                                                 <div className="rounded-2xl border border-slate-200 bg-white shadow-sm p-6">
                                                     <h3 className="text-lg font-bold text-slate-900 mb-4 text-center">{t('staff.flight.title')}</h3>
