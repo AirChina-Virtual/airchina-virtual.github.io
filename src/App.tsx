@@ -297,17 +297,6 @@ const App: React.FC = () => {
                                                         </li>
                                                     </ul>
                                                 </div>
-
-                                                {/* PR */}
-                                                <div className="rounded-2xl border border-slate-200 bg-white shadow-sm p-6">
-                                                    <h3 className="text-lg font-bold text-slate-900 mb-4 text-center">{t('staff.pr.title')}</h3>
-                                                    <ul className="space-y-3 text-sm text-slate-700">
-                                                        <li className="flex flex-col items-center text-center">
-                                                            <span className="font-semibold">Weiqi Yu <span className="font-normal text-slate-500">1496934</span></span>
-                                                            <span className="text-slate-500">{t('staff.pr.role_lead')}</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
