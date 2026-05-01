@@ -135,12 +135,12 @@ const App: React.FC = () => {
                                                 <path d="M5 12h14m-7-7 7 7-7 7" />
                                             </svg>
                                         </Link>
-                                        <button
-                                            onClick={() => window.open("")}
+                                        <Link
+                                            to="https://vamsys.io/register/airchinavirtual"
                                             className="inline-flex items-center gap-2 border border-white/40 text-white px-8 py-4 rounded font-bold text-sm uppercase tracking-widest hover:bg-white/10 transition-colors duration-200"
                                         >
                                             {t("app.login")}
-                                        </button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

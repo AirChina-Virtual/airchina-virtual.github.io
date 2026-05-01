@@ -42,11 +42,11 @@ const Header: React.FC = () => {
             <span className="opacity-30">|</span>
             <button onClick={() => changeLanguage('en')} className={`hover:opacity-100 transition-opacity ${i18n.language === 'en' ? 'opacity-100' : 'opacity-50'}`}>EN</button>
             <span className="opacity-30">|</span>
-            <button className="text-white opacity-50 hover:opacity-100 transition-opacity"
-              onClick={() => window.open("")}
-            >{/* TODO */}
+            <Link className="text-white opacity-50 hover:opacity-100 transition-opacity"
+                  to = "https://vamsys.io/register/airchinavirtual"
+            >
               {t("app.login")}
-            </button>
+            </Link>
           </div>
 
           {/* Burger Icon (Mobile) */}
@@ -81,9 +81,11 @@ const Header: React.FC = () => {
           </div>
 
           {/* Login / Action */}
-          <button className="mt-4 px-6 py-2 rounded-full bg-white text-black font-semibold" onClick={() => { setIsMenuOpen(false); window.open(''); }}>
+          <Link className="mt-4 px-6 py-2 rounded-full bg-white text-black font-semibold"
+                  to = "https://vamsys.io/register/airchinavirtual"
+          >
             {t("app.login")}
-          </button>
+          </Link>
         </nav>
       </div>
 
