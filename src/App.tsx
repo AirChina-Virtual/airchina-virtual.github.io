@@ -262,7 +262,7 @@ const App: React.FC = () => {
                                                             <span className="text-slate-500">{t('staff.flight.role_gm')}</span>
                                                         </li>
                                                         <li className="flex flex-col items-center text-center">
-                                                            <span className="font-semibold">Tony Lin <span className="font-normal text-slate-500">956171</span></span>
+                                                            <span className="font-semibold">Tony Lin <span className="font-normal text-slate-500">946171</span></span>
                                                             <span className="text-slate-500">{t('staff.flight.role_deputy_gm')}</span>
                                                         </li>
                                                     </ul>

@@ -44,8 +44,8 @@ role_deputy_gm = "COO"
 [staff.flight]
 title = "飞行部"
 role_ops = "运行主管"
-role_gm = "飞行部经理"
-role_deputy_gm = "飞行部主任"
+role_gm = "总飞行师"
+role_deputy_gm = "飞行部经理"
 
 [staff.dispatch]
 title = "签派部"
