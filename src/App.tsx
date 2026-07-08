@@ -342,6 +342,12 @@ const App: React.FC = () => {
                                                             <span className="text-sm sm:text-base font-semibold text-slate-800">虚拟中国空军 | vPLAAF</span>
                                                         </div>
                                                     </a>
+                                                    <a target="_blank" rel="noopener noreferrer" href="https://silkroad.vatprc.net" className="snap-center">
+                                                        <div className="flex flex-col items-center justify-center gap-3 min-w-[220px] sm:min-w-[240px] md:min-w-[260px] border border-slate-200 rounded-2xl p-6 sm:p-7 bg-white shadow-sm">
+                                                            <img className="h-12 sm:h-14 md:h-16 w-auto object-contain bg-slate-900 px-2 rounded" src="https://silkroad.vatprc.net/assets/logos/1500x-light-transparent.png" alt="vPLAAF Logo" />
+                                                            <span className="text-sm sm:text-base font-semibold text-slate-800">空中丝绸之路 | Silk Road in the Sky</span>
+                                                        </div>
+                                                    </a>
                                                 </div>
 
                                                 {/* set B (duplicate for seamless loop) */}
@@ -362,6 +368,12 @@ const App: React.FC = () => {
                                                         <div className="flex flex-col items-center justify-center gap-3 min-w-[220px] sm:min-w-[240px] md:min-w-[260px] border border-slate-200 rounded-2xl p-6 sm:p-7 bg-white shadow-sm">
                                                             <img className="h-12 sm:h-14 md:h-16 w-auto object-contain bg-slate-900 px-2 rounded" src="https://www.vplaaf.org/docs/logo-pack/logo_standard_500px.png" alt="" />
                                                             <span className="text-sm sm:text-base font-semibold text-slate-800">虚拟中国空军 | vPLAAF</span>
+                                                        </div>
+                                                    </a>
+                                                    <a target="_blank" rel="noopener noreferrer" href="https://silkroad.vatprc.net" className="snap-center">
+                                                        <div className="flex flex-col items-center justify-center gap-3 min-w-[220px] sm:min-w-[240px] md:min-w-[260px] border border-slate-200 rounded-2xl p-6 sm:p-7 bg-white shadow-sm">
+                                                            <img className="h-12 sm:h-14 md:h-16 w-auto object-contain bg-slate-900 px-2 rounded" src="https://silkroad.vatprc.net/assets/logos/1500x-light-transparent.png" alt="vPLAAF Logo" />
+                                                            <span className="text-sm sm:text-base font-semibold text-slate-800">空中丝绸之路 | Silk Road in the Sky</span>
                                                         </div>
                                                     </a>
                                                 </div>
